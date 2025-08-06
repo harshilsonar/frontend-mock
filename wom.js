@@ -1,7 +1,7 @@
 
 
 
-fetch('http://localhost:3000/products') 
+fetch('https://mock-westside.onrender.com/products') 
     .then(response => response.json())
     .then(data => {
 
@@ -29,7 +29,7 @@ fetch('http://localhost:3000/products')
 
 
 
-    fetch('http://localhost:3000/products1') 
+    fetch('https://mock-westside.onrender.com/products1') 
     .then(response => response.json())
     .then(data => {
 
@@ -58,7 +58,7 @@ fetch('http://localhost:3000/products')
 
 
     
-    fetch('http://localhost:3000/products2') 
+    fetch('https://mock-westside.onrender.com/products2') 
     .then(response => response.json())
     .then(data => {
         const productcontainer2 = document.getElementById('productcontainer2');
@@ -86,7 +86,7 @@ fetch('http://localhost:3000/products')
 
 
 
-    fetch('http://localhost:3000/products3') 
+    fetch('https://mock-westside.onrender.com/products3') 
     .then(response => response.json())
     .then(data => {
         const productcontainer3 = document.getElementById('productcontainer3');
@@ -114,7 +114,7 @@ fetch('http://localhost:3000/products')
 
     
     
-    fetch('http://localhost:3000/products4') 
+    fetch('https://mock-westside.onrender.com/products4') 
     .then(response => response.json())
     .then(data => {
         const productcontainer4 = document.getElementById('productcontainer4');
